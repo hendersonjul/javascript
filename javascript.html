@@ -9,16 +9,38 @@
 
     <body>
 
-        <p id="text">skylines have my heart</p>
+        <p id="text">skylines have my <3</p>
 
         <button id="myButton">change this text to go to an esquivalent text</button>
+
+        <p id="secondParagraph">fishsticks are ... </p>
+
+        <p id="emptyParagraph"></p>
+
+        <button id="createParagraph">im bored</button>
+
+        <button id="secondButton">click</button>
 
         <script type="text/javascript">
 
             document.getElementById("myButton").onclick = function() {
 
+
                 document.getElementById("text").innerHTML = "s15's are getting sleeped on"
 
+            }
+
+            
+            document.getElementById("secondButton").onclick = function() {
+                
+
+                document.getElementById("secondParagraph").innerHTML = "i agree " + document.getElementById("secondParagraph").innerHTML + "ugly"
+
+            }
+
+            document.getElementById("createParagraph").onclick = function() {
+
+                document.getElementById("emptyParagraph").innerHTML = "<h1>jitter click</h1>"
             }
 
         </script>
