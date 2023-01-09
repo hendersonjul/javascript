@@ -15,11 +15,15 @@
 
         <p id="secondParagraph">fishsticks are ... </p>
 
+        <button id="secondButton">click</button>
+
         <p id="emptyParagraph"></p>
 
         <button id="createParagraph">im bored</button>
 
-        <button id="secondButton">click</button>
+        <p id="moreText">i want chicken wings with friends and cheese and ranch</p>
+
+        <button id="styleText">get quaker steak and lube</button>
 
         <script type="text/javascript">
 
@@ -41,6 +45,12 @@
             document.getElementById("createParagraph").onclick = function() {
 
                 document.getElementById("emptyParagraph").innerHTML = "<h1>jitter click</h1>"
+            }
+
+            document.getElementById("styleText").onclick = function() {
+
+                document.getElementById("moreText").style.color = "red"
+
             }
 
         </script>
